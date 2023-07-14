@@ -1,0 +1,4 @@
+		ARISTÓTELES	SÓCRATES	PLATÃO
+FÍSICA		     1		   3		   2
+MATEMÁTICA	     3		   2		   1
+QUÍMICA		     2		   1		   3
