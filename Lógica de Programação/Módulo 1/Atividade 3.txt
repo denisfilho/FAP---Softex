@@ -1,0 +1,11 @@
+// Proposta e declaração da variáveis
+- caracter (string): nome, endereco
+- inteiro: cpf e rg
+- real: altura
+
+// Atribuição
+nome <- “José de Almeida da Silva”
+cpf <- 12345678900
+rg <- 9517530 
+altura <- 1.78
+endereco <- “Rua A, 380 – Centro - Recife/PE”
