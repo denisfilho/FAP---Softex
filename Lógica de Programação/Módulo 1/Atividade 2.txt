@@ -1,4 +1,4 @@
-- As fileiras horizontais, de 6 cadeiras, da sala de aulas eram agrupadas em 4 e 2 por gosto de matéria.
+- As fileiras horizontais, de 6 cadeiras, da sala de aula eram agrupadas em 4 e 2 por preferência de matéria.
 - 4 e 2: 
  - 4 pessoas gostam de matemática e 2 gostam de portugês;
  - 4 pessoas gostam de portugês e 2 gostam de matemática; 
