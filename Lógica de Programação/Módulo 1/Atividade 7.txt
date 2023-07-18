@@ -1,0 +1,18 @@
+Algoritmo "Atividade 7 - Tabuada"
+//Criado no VisualG
+Var
+// Seção de Declarações das variáveis 
+tabuada, cont: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+   escreva("Informe um número para ser calculado a tabuada: ")
+   leia(tabuada)
+   
+   escreval("TABUADA DO ", tabuada)
+   
+   para cont de 1 ate 10 faca
+        escreval(tabuada, " X ", cont, " = ", tabuada*cont)
+   fimpara
+
+Fimalgoritmo
