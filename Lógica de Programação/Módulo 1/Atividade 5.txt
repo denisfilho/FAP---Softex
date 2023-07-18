@@ -1,0 +1,30 @@
+Expressão 1 - Jogador 1: (pontos >= 100) and (moedas >= 5) and (encontrou_chefe == Sim)
+(120 >= 100) and (15 >= 5) and (Sim == Sim)
+V and V and V
+V and V
+V
+
+Expressão 2 - Jogador 2: (pontos >= 100) and (moedas >= 5) and (encontrou_chefe == Não)
+(99 >= 100) and (200 >= 5) and (Não == Não)
+F and V and V
+F and V
+F
+
+Expressão 3 - Jogador 3: (pontos < 100) or (moedas < 5) or (encontrou_chefe == Sim)
+(100 < 100) or (5 < 5) or (Sim == Sim)
+F or F or V
+F or V
+V
+
+Expressão 4 - Jogador 4: (pontos != 100) or (moedas != 5) or not(encontrou_chefe == Não)
+(101 != 100) or (4 != 5) or not(Não == Não)
+V or V or not(V)
+V or F
+V
+
+Resultado final
+
+(V) Jogador 1: (pontos >= 100) and (moedas >= 5) and (encontrou_chefe == Sim)
+(F) Jogador 2: (pontos >= 100) and (moedas >= 5) and (encontrou_chefe == Não)
+(V) Jogador 3: (pontos < 100) or (moedas < 5) or (encontrou_chefe == Sim)
+(V) Jogador 4: (pontos != 100) or (moedas != 5) or not(encontrou_chefe == Não)
