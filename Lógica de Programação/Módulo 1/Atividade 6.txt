@@ -1,0 +1,42 @@
+Algoritmo "Atividade 6"
+//Desenvolvida no visualg
+Var
+// Seção de Declarações das variáveis 
+terrestre, cabe_pessoa, capacete, pesado, pedal: caracter
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+   escreval ("É terrestre?: ")
+   leia(terrestre)
+
+   se (terrestre = "Sim") entao
+      escreva("Cabe apenas 1 pessoa?: ")
+      leia(cabe_pessoa)
+      se (cabe_pessoa = "Sim") entao
+         escreva("É pesado?: ")
+         leia(pesado)
+         se (pesado = "Sim") entao
+            escreval("Então, o transporte escolhido foi o trator.")
+         senao
+              escreva("Tem pedal?: ")
+              leia(pedal)
+              se (pedal = "Sim") entao
+                 escreval("Então, o transporte escolhido foi a bicicleta.")
+              senao
+                   escreval("Não existe nenhum transporte para esta condição")
+              fimse
+         fimse
+      senao
+           escreva("Usa capacete?: ")
+           leia(capacete)
+           se (capacete = "Sim") entao
+              escreval("Então, o transporte escolhido foi a moto.")
+           senao
+                escreval("Não existe nenhum transporte para esta condição")
+           fimse
+      fimse
+   senao
+        escreval("Não existe nenhum transporte para esta condição")
+   fimse
+
+Fimalgoritmo
