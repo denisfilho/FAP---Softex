@@ -1,0 +1,45 @@
+algoritmo "Atividade 4 - Cadastro"
+
+var
+
+nome, endereco, cidade, pai, mae: caracter
+cpf, rg, idade: inteiro
+peso, renda: real
+
+inicio
+
+escreva("Informe o nome: ")
+leia(nome)
+escreva("Informe o endereço: ")
+leia(endereco)
+escreva("Informe a cidade: ")
+leia(cidade)
+escreva("Informe o CPF: ")
+leia(cpf)
+escreva("Informe o RG: ")
+leia(rg)
+escreva("Informe a idade: ")
+leia(idade)
+escreva("Informe o nome do pai: ")
+leia(pai)
+escreva("Informe o nome da mãe: ")
+leia(mae)
+escreva("Informe o peso: ")
+leia(peso)
+escreva("Informe a renda bruta: ")
+leia(renda)
+
+escreva("Cadastro Finalizado!")
+
+escreva("Nome: ", nome)
+escreva("Endereço: ", endereco)
+escreva("Cidade: ", cidade)
+escreva("CPF: ", cpf)
+escreva("RG: ", rg)
+escreva("Idade: ", idade)
+escreva("Nome do Pai: ", pai)
+escreva("Nome da Mae: ", mae)
+escreva("Peso: ", peso)
+escreva("Renda: ", renda)
+
+fimalgoritmo
