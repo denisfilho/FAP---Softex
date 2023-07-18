@@ -1,0 +1,5 @@
+- As fileiras horizontais, de 6 cadeiras, da sala de aulas eram agrupadas em 4 e 2 por gosto de matéria.
+- 4 e 2: 
+ - 4 pessoas gostam de matemática e 2 gostam de portugês;
+ - 4 pessoas gostam de portugês e 2 gostam de matemática; 
+- E ele percebeu esta troca nas fileiras 4 e 5, pois deixaram de ser agrupadas em 4 e 2, para 3 e 3.
