@@ -198,6 +198,11 @@ function Exercicio15(){
 
 //Exercicio15();
 
+function continuar(){
+    let tecla = prompt("Pressione ENTER para continuar...");
+    console.clear();
+}
+
 let opcao;
 do{
     console.log("Menu");
@@ -219,56 +224,75 @@ do{
     console.log("16 - Sair");
     opcao = parseInt(prompt("Informe uma opcao: "));
 
+    console.clear();
+
     switch(opcao){
         case 1:
             Exercicio1();
+            continuar();
         break
         case 2:
             Exercicio2();
+            continuar();
         break
         case 3:
             Exercicio3();
+            continuar();
         break
         case 4:
             Exercicio4();
+            continuar();
         break
         case 5:
             Exercicio5();
+            continuar();
         break
         case 6:
             Exercicio6();
+            continuar();
         break
         case 7:
             Exercicio7();
+            continuar();
         break
         case 8:
             Exercicio8();
+            continuar();
         break
         case 9:
             Exercicio9();
+            continuar();
         break
         case 10:
             Exercicio10();
+            continuar();
         break
         case 11:
             Exercicio11();
+            continuar();
         break
         case 12:
             Exercicio12();
+            continuar();
         break
         case 13:
             Exercicio13();
+            continuar();
         break
         case 14:
             Exercicio14();
+            continuar();
         break
         case 15:
             Exercicio15();
+            continuar();
         break
         case 16:
             console.log("Finalizando Programa");
+            continuar();
         break
         default:
             console.log("Opção Inválida");
+            continuar();
     }
 }while(opcao!=16);
