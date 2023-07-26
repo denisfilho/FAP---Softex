@@ -1,26 +1,22 @@
 const prompt = require("prompt-sync")();
 
-function Exercicio1(){
+function exercicio1(){
     console.log("Hello World");
 }
 
-//Exercicio1();
-
-function Exercicio2(){
+function exercicio2(){
     const nome = prompt("Informe seu nome: ");
     console.log(`Olá ${nome}!`)
 }
-//Exercicio2();
 
-function Exercicio3(){
+function exercicio3(){
     const num1 = parseInt(prompt("Informe o primeiro número: "));
     const num2 = parseInt(prompt("Informe o segundo número: "));
 
     console.log(`A média dos números informados é ${(num1 + num2)/2}`);
 }
-//Exercicio3();
 
-function Exercicio4(){
+function exercicio4(){
     const idade = prompt("Informe a idade: ");
 
     if (idade>= 18){
@@ -29,9 +25,8 @@ function Exercicio4(){
         console.log("Menor de Idade")
     }
 }
-//Exercicio4();
 
-function Exercicio5(){
+function exercicio5(){
     const num = prompt("Informe um numero: ");
 
     if(num%2===0){
@@ -41,9 +36,7 @@ function Exercicio5(){
     }
 }
 
-//Exercicio5();
-
-function Exercicio6(){
+function exercicio6(){
     let media = 0;
 
     for(let i=0; i<3; i++){
@@ -51,16 +44,14 @@ function Exercicio6(){
     }
     console.log(`A média nos 3 numers informados é: ${media/3}`);
 }
-//Exercicio6();
 
-function Exercicio7(){
+function exercicio7(){
     for(let i=1; i<11; i++){
         console.log(`${i}`);
     }
 }
-//Exercicio7();
 
-function Exercicio8(){
+function exercicio8(){
     for(let i=1; i<=20; i++){
         if(i%2===0){
             console.log(`${i}`);
@@ -68,7 +59,6 @@ function Exercicio8(){
         
     }    
 }
-//Exercicio8();
 
 function verificaPrimo(valor){
     for(let i=2; i<valor/2; i++){
@@ -79,7 +69,7 @@ function verificaPrimo(valor){
     return true;
 }
 
-function Exercicio9(){
+function exercicio9(){
     const num= prompt("Informe um num: ");
 
     if (verificaPrimo(num)){
@@ -90,16 +80,13 @@ function Exercicio9(){
 
 }
 
-//Exercicio9();
-
-function Exercicio10(){
+function exercicio10(){
     const temp_celsius = prompt("Informe a temperatura em Celcius: ");
 
     console.log(`${temp_celsius}ºC equivale a ${(temp_celsius*9/5)+32}ºF`);
 }
-//Exercicio10();
 
-function Exercicio11(){
+function exercicio11(){
     let lista = [];
     let num;
     for(let i=0; num!=0; i++){
@@ -116,9 +103,8 @@ function Exercicio11(){
         }
     }
 }
-//Exercicio11();
 
-function Exercicio12(){
+function exercicio12(){
     let num, maior, menor;
     let primeiro_valor = true;
     while(num!='sair'){
@@ -144,7 +130,6 @@ function Exercicio12(){
     console.log(`O menor valor = ${menor}`);
 }
 
-//Exercicio12();
 function verificaPalindromo(palavra){
     for(let i=0, j=palavra.length-1; i<palavra.length/2; i++){
         if(palavra[i]!=palavra[j-i]){
@@ -153,7 +138,8 @@ function verificaPalindromo(palavra){
     }
     return true;
 }
-function Exercicio13(){
+
+function exercicio13(){
     let palavra = prompt("Informe a palavra: ");
     if(verificaPalindromo(palavra.split(''))){
         console.log(`${palavra} é palíndromo`);
@@ -162,9 +148,7 @@ function Exercicio13(){
     }
 }
 
-//Exercicio13();
-
-function Exercicio14(){
+function exercicio14(){
     //let lista = [1,2,3,4,5];
     let lista = [1,2,3,4];
     let aux;
@@ -177,7 +161,6 @@ function Exercicio14(){
         console.log(lista[i]);
     }
 }
-//Exercicio14();
 
 function getRandomIntInclusive(min, max) {
     min = Math.ceil(min);
@@ -185,7 +168,7 @@ function getRandomIntInclusive(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-function Exercicio15(){
+function exercicio15(){
     let num_aleatorio = getRandomIntInclusive(0,10);
     console.log("Tente advinhar o número de 0 a 10 escolhido pelo computador");
     let num_informado = prompt("Informe aqui o número: ");
@@ -195,8 +178,6 @@ function Exercicio15(){
         console.log(`Você errou! O número escolhido pelo computador foi ${num_aleatorio}`);
     }
 }
-
-//Exercicio15();
 
 function continuar(){
     let tecla = prompt("Pressione ENTER para continuar...");
@@ -228,63 +209,63 @@ do{
 
     switch(opcao){
         case 1:
-            Exercicio1();
+            exercicio1();
             continuar();
         break
         case 2:
-            Exercicio2();
+            exercicio2();
             continuar();
         break
         case 3:
-            Exercicio3();
+            exercicio3();
             continuar();
         break
         case 4:
-            Exercicio4();
+            exercicio4();
             continuar();
         break
         case 5:
-            Exercicio5();
+            exercicio5();
             continuar();
         break
         case 6:
-            Exercicio6();
+            exercicio6();
             continuar();
         break
         case 7:
-            Exercicio7();
+            exercicio7();
             continuar();
         break
         case 8:
-            Exercicio8();
+            exercicio8();
             continuar();
         break
         case 9:
-            Exercicio9();
+            exercicio9();
             continuar();
         break
         case 10:
-            Exercicio10();
+            exercicio10();
             continuar();
         break
         case 11:
-            Exercicio11();
+            exercicio11();
             continuar();
         break
         case 12:
-            Exercicio12();
+            exercicio12();
             continuar();
         break
         case 13:
-            Exercicio13();
+            exercicio13();
             continuar();
         break
         case 14:
-            Exercicio14();
+            exercicio14();
             continuar();
         break
         case 15:
-            Exercicio15();
+            exercicio15();
             continuar();
         break
         case 16:
