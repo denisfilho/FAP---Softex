@@ -186,8 +186,89 @@ function getRandomIntInclusive(min, max) {
 }
 
 function Exercicio15(){
-    num = getRandomIntInclusive(0,10);
-    console.log(num);
+    let num_aleatorio = getRandomIntInclusive(0,10);
+    console.log("Tente advinhar o número de 0 a 10 escolhido pelo computador");
+    let num_informado = prompt("Informe aqui o número: ");
+    if(num_aleatorio===num_informado){
+        console.log("Parabéns você acertou o número");
+    } else{
+        console.log(`Você errou! O número escolhido pelo computador foi ${num_aleatorio}`);
+    }
 }
 
 //Exercicio15();
+
+let opcao;
+do{
+    console.log("Menu");
+    console.log("1 - Imprime 'Olá Mundo' ");
+    console.log("2 - Imprime nome na tela");
+    console.log("3 - Soma de 2 inteiros");
+    console.log("4 - Verifica maior de idade")
+    console.log("5 - Verifica par e ímpar");
+    console.log("6 - Média de 3 números");
+    console.log("7 - Imprimir de 1 a 10 em ordem crescente");
+    console.log("8 - Imprime pares de 1 a 20");
+    console.log("9 - Verifique se é primo");
+    console.log("10 - Converter Celsius para Fahrenheit");
+    console.log("11 - Imprime pares de uma lista");
+    console.log("12 - Verifica maior e menor de uma lista");
+    console.log("13 - Verifica palíndromo");
+    console.log("14 - Inverte ordem de uma lista");
+    console.log("15 - Jogo de advinhação");
+    console.log("16 - Sair");
+    opcao = parseInt(prompt("Informe uma opcao: "));
+
+    switch(opcao){
+        case 1:
+            Exercicio1();
+        break
+        case 2:
+            Exercicio2();
+        break
+        case 3:
+            Exercicio3();
+        break
+        case 4:
+            Exercicio4();
+        break
+        case 5:
+            Exercicio5();
+        break
+        case 6:
+            Exercicio6();
+        break
+        case 7:
+            Exercicio7();
+        break
+        case 8:
+            Exercicio8();
+        break
+        case 9:
+            Exercicio9();
+        break
+        case 10:
+            Exercicio10();
+        break
+        case 11:
+            Exercicio11();
+        break
+        case 12:
+            Exercicio12();
+        break
+        case 13:
+            Exercicio13();
+        break
+        case 14:
+            Exercicio14();
+        break
+        case 15:
+            Exercicio15();
+        break
+        case 16:
+            console.log("Finalizando Programa");
+        break
+        default:
+            console.log("Opção Inválida");
+    }
+}while(opcao!=16);
