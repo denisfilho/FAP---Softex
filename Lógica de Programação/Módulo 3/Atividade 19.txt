@@ -1,0 +1,67 @@
+Array [ 3, 7, 9, 1, 0]
+
+----------- Estrutura Fila -----------
+(Remove o primeiro da lista)
+- Iteração 1
+Elemento eliminado: 3
+Array Atualizado: [7, 9, 1, 0]
+
+- Iteração 2
+Elemento eliminado: 7
+Array Atualizado: [9, 1, 0]
+
+- Iteração 3
+Elemento eliminado: 9
+Array Atualizado: [1, 0] 
+
+- Iteração 4
+Elemento eliminado: 1
+Array Atualizado: [0]
+
+- Iteração 5
+Elemento eliminado: 0
+Array Atualizado: []
+
+----------- Estrutura Lista -----------  
+(Remove um elemento específico da lista)
+- Iteração 1
+Elemento eliminado:7 
+Array Atualizado: [3, 9, 1, 0]
+
+- Iteração 2
+Elemento eliminado: 9
+Array Atualizado: [3, 1, 0]
+
+- Iteração 3
+Elemento eliminado: 3
+Array Atualizado: [1, 0] 
+
+- Iteração 4
+Elemento eliminado: 0
+Array Atualizado: [1]
+
+- Iteração 5
+Elemento eliminado: 1
+Array Atualizado: []
+
+----------- Estrutura Pilha -----------  
+(Remove o último da lista)
+- Iteração 1
+Elemento eliminado: 0
+Array Atualizado: [3, 7, 9, 1]
+
+- Iteração 2
+Elemento eliminado: 1
+Array Atualizado: [3, 7, 9]
+
+- Iteração 3
+Elemento eliminado: 9
+Array Atualizado: [3, 7] 
+
+- Iteração 4
+Elemento eliminado: 7
+Array Atualizado: [3]
+- Iteração 5
+Elemento eliminado: 3
+Array Atualizado: []
+
